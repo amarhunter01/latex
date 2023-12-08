@@ -1,27 +1,113 @@
 \documentclass[a4paper, 12pt]{article}
+%report book beamer letter 
+%in square brackets twocolomns
 \usepackage[utf8]{inputenc}
 \usepackage[bosnian]{babel}
 \title{MGS}
 \author{ahunter01}
 \begin{document}
 \maketitle
-
+\tableofcontents
 \today
+
+\begin{abstract}
+    Short text
+\end{abstract}
+
+10
+\begin{description}
+    \item[description] Something
+    \item[Thing] Text
+\end{description}
 
 Kept you waiting, huh
 %for new line if needed
 dasdasdsadassdasdsadasdasdsadasdasd\-dasdasd
 
-I'm at the sneaking point
-
+I'm at the sneaking point\footnote{Snake}
+\label{Snake}
 \%, \$, \{, \}, \#, \&, \_, \textbackslash{}
 
 -, --, ---,
 
 ... 
 
+\verb|tekst \$_|
+
+
+\begin{verbatim}
+    H E L L O
+\end{verbatim}
 \ldots 
 
 čžđščćśź
 
+\section{First section}
+On \ref{Snake} num \pageref{Snake}
+    \subsection{First subsection}
+%\chapter{} \part{}
+\section*{conclusion}
+% \emph{emph}
+% \textit{Italic}
+% \textbf{Bolded}
+% \textsl{to the side letters}
+% \texttt{unformated}
+% \textsc{Small Cap}
+% \textsf{Sans serif}
+% \textrm{roman}
+% \textit{\textbf{Bold Italic slova}}
+% \chapter[Text]{Long text}
+% \tiny
+% \scriptsize
+% \footnotesize
+% \small
+% \normalsize
+% \large
+% \Large
+% \LARGE
+% \huge
+% \Huge
+% \par
+% \smallskip
+% \medskip
+% \bigskip
+% \bigskip
+% \hspace{2cm}
+% \vspace{7mm}
+% \hfill
+% \vfill
+% \stretch{faktor}
+% \newpage
+% \newline
+
+\noindent Electro\-tehnical
+
+% \caption{Table1}
+\begin{tabular}{c|r|l}
+    Kept & you & waiting \\ \hline
+    \label{tab1}
+\end{tabular}
+
+\begin{tabbing}
+    This is first \=tab and this is second \=tab \\
+\>1 \>2
+\end{tabbing}
+
+\begin{enumerate}
+    \item 1
+    \item 2
+\end{enumerate}
+
+\begin{itemize}
+    \item 1
+    \item 2
+\end{itemize}
+
 \end{document}
+
+% \usepackage{palatino} font
+
+% \centering 
+% \raggedright
+% \raggedleft
+
